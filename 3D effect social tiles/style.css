@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+
+body{
+    margin: 0%;
+    padding: 0px;
+    background: #ccc;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+transform: translate(-50%, -50%);
+display: flex;
+justify-content: space-between;
+margin: 0px;
+padding: 0%;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+ul li a .fa{
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    color: #262626;
+    line-height: 40px;
+    transition: .7s;
+    padding-left: 0px;
+}
+
+ul li a span{
+    padding-left: 5px;
+    margin-left: 20px;
+    position: absolute;
+    top: 35px;
+    color: #262626;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+ul li a{
+    text-decoration: none;
+    display:absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin: 20px;
+    margin-right: -20px;
+    height: 80px;
+    background: #fff;
+    text-align: left;
+    padding-left: 30px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition: .5s;
+    box-shadow: -20px -20px -15px rgba(0,0, 0, 0.5);
+}
+
+ul li a::before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -5px;
+    height: 20px;
+    width: 95%;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+}
+
+ul li a:hover{
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -35px 35px 35px rgba(0,0, 0, 0.5);
+}
+
+ul li:hover .fa{
+    color: #fff;
+}
+
+ul li:hover span{
+    color: #fff;
+}
+
+
+
+ul li:hover:nth-child(1) a{
+    background: #3b5998;
+}
+ul li:hover:nth-child(1) a:before{
+    background: #365492;
+}
+ul li:hover:nth-child(1) a:after{
+    background: #4a69ad;
+}
+
+ul li:hover:nth-child(2) a{
+    background: #00aced;
+}
+ul li:hover:nth-child(2) a:before{
+    background: #097aa5;
+}
+ul li:hover:nth-child(2) a:after{
+    background: #54b9e0;
+}
+
+
+ul li:hover:nth-child(3) a{
+    background:#c73d94 ;
+}
+ul li:hover:nth-child(3) a:before{
+    background: #a22680;
+}
+ul li:hover:nth-child(3) a:after{
+    background:#ad1266 ;
+}
+
+
+ul li:hover:nth-child(4) a{
+    background: #10491b;
+}
+ul li:hover:nth-child(4) a:before{
+    background:#4f9c62;
+}
+ul li:hover:nth-child(4) a:after{
+    background: #346637;
+}
+
+
+ul li:hover:nth-child(5) a{
+    background: #c20639;
+}
+ul li:hover:nth-child(5) a:before{
+    background: #d0294c;
+}
+ul li:hover:nth-child(5) a:after{
+    background: #d51f45;
+}
